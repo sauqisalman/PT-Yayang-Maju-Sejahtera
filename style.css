@@ -68,6 +68,42 @@ span {
   font-size: 30px;
 }
 
+h2 {
+  font-family: poppins;
+}
+
+p {
+  font-family: poppins;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+}
+
+.fa-facebook-square {
+  color: blue;
+}
+
+.fa-whatsapp-square {
+  color: green;
+}
+
+.fa-instagram-square {
+  color: purple;
+}
+
+footer p {
+  display: inline-block;
+  margin: 10px auto;
+}
+
+h3 {
+  text-align: center;
+  font-family: roboto;
+}
+
+
 @media (max-width : 400px){
   nav {
     display: flex;
@@ -78,4 +114,8 @@ span {
     width: 350px;
     height: 300px;
   }
+  iframe {
+    width: 350px;
+    height: 300px;
+  } 
 }
